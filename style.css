@@ -1,0 +1,54 @@
+@import url(https://www.fontspace.com/cursed-timer-ulil-font-f29411);
+
+html, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    color: white;
+    background-color: rgb(27,36,74);
+    width: 400px;
+    height: 400px;
+}
+.home-score-container, .guest-score-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.score-bg h2{
+    background-color: black;
+    color: #F94F6D;
+    font-size: 70px;
+    width: 90px;
+    border-radius: 8px;
+    text-align: center;
+}
+.increments{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #9AABD8;
+}
+.increments h5{
+    border: solid 1px #9AABD8;
+    padding: 3px;
+    border-radius: 3px;
+}
