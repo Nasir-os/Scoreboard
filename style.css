@@ -14,7 +14,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-font-family: 'cursed-timer-ulil-font', sans-serif;
 
 }
 .container{
@@ -37,6 +36,11 @@ font-family: 'cursed-timer-ulil-font', sans-serif;
     font-weight: bold;
     
 }
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 
 .score-bg h2{
     font-size: 5rem;
@@ -47,6 +51,11 @@ font-family: 'cursed-timer-ulil-font', sans-serif;
     border-radius: 8px;
     display: grid;
     place-items: center;
+}
+.score-bg h2,.increments button{
+
+font-family: 'cursed-timer-ulil-font', sans-serif;
+
 }
 .increments{
     padding: 1em;
