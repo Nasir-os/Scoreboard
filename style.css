@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'cursed-timer-ulil-font';
-    src: url(font/CursedTimerUlil-Aznm.ttf);
+    src: url(font/CursedTimerUlil-Aznm.ttf) format('truetype');
    
 }
 html, *{
@@ -14,6 +14,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+font-family: 'cursed-timer-ulil-font', sans-serif;
+
 }
 .container{
     display: flex;
@@ -23,23 +25,25 @@ height: 100vh;
     color: white;
     background-color: rgb(27,36,74);
     height: 80%;
-    width: 50%;
-    font-size: 2rem;
+    border-radius: 10px;
 }
 .home-score-container, .guest-score-container{
-    font-family: 'cursed-timer-ulil-font', sans-serif;
     display: flex;
     gap: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
 }
 
 .score-bg h2{
+    font-size: 5rem;
+    height: 150px;
+    width: 190px;
     background-color: black;
     color: #F94F6D;
-    width: 90px;
-    height: 2em;
     border-radius: 8px;
     display: grid;
     place-items: center;
@@ -50,10 +54,19 @@ height: 100vh;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: #9AABD8;
 }
-.increments h5{
-    border: solid 1px #9AABD8;
-    padding: 3px;
+.increments button, .newgame-btn{
+    background-color: black;
+    border:1px solid  #f94f4fe2;
+    font-size: 1.2rem;
+    color: #F94F6D;
+    padding: 10px;
     border-radius: 3px;
+    cursor: pointer;
+
+}
+.newgame-btn{
+background-color: aquamarine;
+color:black;
+border: none;
 }
